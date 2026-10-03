@@ -132,7 +132,7 @@ DAX is used for every ratio and percentage, and for filter-aware comparison KPIs
 
 ### Page 1. Sales Performance
 
-![Sales Performance](./img/01_sales_performance.png)
+![Sales Performance](./img/dashboard1.png)
 
 *This page sets the baseline for the report: how much the business sells, and whether growth comes from more orders or bigger orders.*
 
@@ -145,7 +145,7 @@ The growth pattern shows that sales growth over the analyzed period came mainly 
 
 ### Page 2. Customer Value & Retention
 
-![Customer Value and Retention](./img/02_customer_value_retention.png)
+![Customer Value and Retention](./img/dashboard2.png)
 
 *This page asks whether customers who come back are worth more, and if so, why.*
 
@@ -157,7 +157,7 @@ Repeat purchasing is rare in this dataset, but returning customers have higher v
 
 ### Page 3. Product Performance
 
-![Product Performance](./img/03_product_performance.png)
+![Product Performance](./img/dashboard3.png)
 
 *This page compares product categories by revenue and by volume, since the two rankings do not always agree.*
 
@@ -170,7 +170,7 @@ Revenue and volume do not show the same category leaders. High-value and high-vo
 
 ### Page 4. Delivery & Satisfaction
 
-![Delivery and Satisfaction](./img/04_delivery_satisfaction.png)
+![Delivery and Satisfaction](./img/dashboard4.png)
 
 *This page tests the main customer experience question: does delivery performance relate to how customers rate their orders?*
 
