@@ -86,7 +86,7 @@ This structure keeps transaction data separate from descriptive attributes. All 
 
 ### Engineering Model
 
-![SQL engineering model for the mart layer](./img/00_engineering_model.png)
+![SQL engineering model for the mart layer](./img/schema.png)
 
 *SQL engineering model for the mart layer: three fact tables (sales, payments, reviews) sharing the same conformed dimensions.*
 
