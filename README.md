@@ -222,10 +222,6 @@ The relationship is strong enough to justify further investigation. Delivery per
 - used `CALCULATE` with explicit filter conditions and `ALLSELECTED` / `REMOVEFILTERS` for share-of-total and segment-comparison KPIs
 - kept each page focused on one business question with a short, data-backed takeaway rather than maximizing the number of visuals
 
-## Out of Scope / Further Questions
-
-This project focuses on sales growth, customer retention, product mix, and delivery-driven satisfaction. Natural extensions include a seller-level delivery quality matrix, a full order-status funnel from creation to delivery, margin and profitability analysis (not possible with this dataset because no product cost data exists), and a geography-level view once the `geolocation` table is properly aggregated to avoid duplicating fact rows.
-
 ## Closing Thoughts
 
 This project combines SQL data modeling and Power BI reporting into one validated analytical workflow, built end to end on real transactional data rather than a pre-cleaned, pre-joined dataset. The result is a four-page report that connects sales growth, customer retention, product mix, and delivery quality into one data-backed view of the business.
