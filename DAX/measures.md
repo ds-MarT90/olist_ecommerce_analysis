@@ -151,14 +151,6 @@ Customer Avg Order Value =
 DIVIDE([Customer Sales Value], [Total Orders])
 ```
 
-> Note: named `Customer Avg Order Value`, not `Avg Order Value`, because that
-> name is already used by the Sales page measure — measure names must be
-> unique across the whole model.
-
-> Note: measure names are unique across the whole model, which is why the
-> Customers page uses `Customer Sales Value` instead of reusing
-> `Total Sales Value` from the Sales page.
-
 ---
 
 ## Page 3. Product Performance
@@ -188,11 +180,6 @@ DISTINCTCOUNT('analysis vw_product_performance'[product_category])
 Avg Item Price = 
 DIVIDE([Product Sales Value], [Units Sold])
 ```
-
-> Note: no cost/margin data exists in the source (see README data
-> limitations) — this page deliberately covers revenue and volume only.
-
----
 
 ## Page 4. Delivery & Satisfaction
 
